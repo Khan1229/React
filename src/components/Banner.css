@@ -1,0 +1,54 @@
+/* src/components/Banner.css */
+.banner {
+    height: 300px; /* Ajusta la altura del banner */
+    color: white;
+    object-fit: contain;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .banner__contents {
+    margin-left: 30px;
+    padding-top: 60px; /* Reduce el padding superior */
+    max-width: 600px; /* Limita el ancho */
+    height: auto;
+  }
+  
+  .banner__title {
+    font-size: 2.5rem; /* Ajusta el tamaño del título */
+    font-weight: 700;
+    margin-bottom: 10px; /* Reduce el espacio debajo del título */
+  }
+  
+  .banner__buttons {
+    margin-top: 10px; /* Reduce el espacio entre los botones */
+  }
+  
+  .banner__button {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.5);
+    padding: 8px 20px; /* Ajusta el padding de los botones */
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-size: 1rem; /* Ajusta el tamaño de la fuente */
+  }
+  
+  .banner__description {
+    width: 45rem;
+    line-height: 1.3;
+    font-size: 1rem;
+    max-width: 360px;
+  }
+  
+  .banner--fadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, transparent);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  

@@ -1,0 +1,14 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+  }
+  
+  .navbar__logo {
+    width: 50px;
+    object-fit: contain;
+  }
+  

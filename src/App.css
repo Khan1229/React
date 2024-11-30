@@ -1,0 +1,15 @@
+/* src/App.css */
+.App {
+    background-color: #111;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app__rows {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #111;
+    flex-grow: 1; /* Esto permite que el contenido debajo del banner se expanda */
+  }
+  
